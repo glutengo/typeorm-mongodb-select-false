@@ -1,0 +1,21 @@
+{
+  "name": "typeorm-mongodb-select-false",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus Glutting",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.0",
+    "mongodb-memory-server": "^6.9.6",
+    "ts-node": "^10.0.0",
+    "typeorm": "^0.2.34"
+  }
+}

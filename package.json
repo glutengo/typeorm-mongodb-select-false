@@ -8,14 +8,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Markus Glutting",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
-    "typescript": "^4.3.2"
+    "typescript": "4.3.2",
+    "mongodb-memory-server": "6.9.6",
+    "typeorm": "0.2.34"
   },
   "devDependencies": {
-    "@types/node": "^15.12.0",
-    "mongodb-memory-server": "^6.9.6",
-    "ts-node": "^10.0.0",
-    "typeorm": "^0.2.34"
+    "@types/node": "15.12.0",
+    "ts-node": "10.0.0"
   }
 }
